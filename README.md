@@ -18,7 +18,7 @@ ChatAPI，封装会话信息，向ChatGPT API发起请求。
 其中最后把本轮的请求返回加回会话缓存。
 
 三、测试代码
-
+```
 public static void main(String[] args) {
     ChatAPI c = new ChatAPI();
     while(true){
@@ -29,4 +29,5 @@ public static void main(String[] args) {
         System.out.println(c.chat(str));
     }
 }
+```
 其他详细介绍参考：https://zhuanlan.zhihu.com/p/613744177
